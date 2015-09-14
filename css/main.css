@@ -65,6 +65,7 @@ a.red
 	padding: 10px 30px;
 	margin-right: 15px;
 	border: 1px solid #d66039;
+	margin-bottom: 15px;
 }
 a.bttn
 {
@@ -73,6 +74,7 @@ a.bttn
 	color: #f1eeed;
 	padding: 10px 30px;
 	margin-right: 15px;
+	margin-bottom: 15px;
 }
 a.bttn:hover
 {
@@ -487,9 +489,9 @@ footer
 /*=================================================
 ||				13. Media Query
 ==================================================*/
-@media (max-width: 991px){
-	.bttn
+@media (max-width: 1200px){
+	/*.bttn
 	{
 		margin-bottom: 15px;
-	}
+	}*/
 }
