@@ -31,7 +31,7 @@
 body
 {
 	font-family: 'Roboto', 'Open-Sans', sans-serif;
-	/*overflow-x: hidden;*/
+	overflow-x: hidden;
 	color: #313131;
 }
 h1.header-title
@@ -105,16 +105,17 @@ a:hover
 	color: #f1eeed;
 	letter-spacing: 1px;
 }
+.home .home-bg{
+	background: url('../images/Notebook-1.png') no-repeat;
+	background-position: left bottom;
+}
 .header-img
 {
 	margin-left: -15px;
 }
 .header-wrapper
 {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	left: 50%;
+	padding: 30% 0%;
 }
 p.header-sub
 {
@@ -204,13 +205,9 @@ p.header-sub
 	font-size: 18px;
 	margin-top: 50px;
 }
-.iPad
-{
-	position: absolute;
-	top: 100px;
-	/*transform: translateY(-50%);*/
-	/*left: 50%;*/
-	right: 0;
+.book .book-bg{
+	background: url('../images/iPad.png') no-repeat;
+	background-position: right bottom;
 }
 .cta-1
 {
@@ -484,14 +481,23 @@ footer
 {
 	word-spacing: 20px;
 }
-
+.themewagon{
+	text-align: right;
+}
 
 /*=================================================
 ||				13. Media Query
 ==================================================*/
-@media (max-width: 1200px){
-	/*.bttn
-	{
-		margin-bottom: 15px;
-	}*/
+@media (max-width: 992px){
+	.book .section-wrapper{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	footer{
+		text-align: center;
+	}
+	.themewagon{
+		text-align: center;
+	}
 }
