@@ -105,10 +105,6 @@ a:hover
 	color: #f1eeed;
 	letter-spacing: 1px;
 }
-.home .home-bg{
-	background: url('../images/Notebook-1.png') no-repeat;
-	background-position: left bottom;
-}
 .header-img
 {
 	margin-left: -15px;
@@ -204,10 +200,6 @@ p.header-sub
 	font-weight: 400;
 	font-size: 18px;
 	margin-top: 50px;
-}
-.book .book-bg{
-	background: url('../images/iPad.png') no-repeat;
-	background-position: right bottom;
 }
 .cta-1
 {
@@ -501,11 +493,13 @@ footer
 		text-align: center;
 	}
 }
-@media (max-width: 767px){
+@media (min-width: 768px){
 	.home .home-bg{
-		background: none !important;
+		background: url('../images/Notebook-1.png') no-repeat;
+		background-position: left bottom;
 	}
 	.book .book-bg{
-		background: none !important;
+		background: url('../images/iPad.png') no-repeat;
+		background-position: right bottom;
 	}
 }
