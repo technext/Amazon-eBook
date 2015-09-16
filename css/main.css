@@ -503,9 +503,9 @@ footer
 }
 @media (max-width: 767px){
 	.home .home-bg{
-		background: none;
+		background: none !important;
 	}
 	.book .book-bg{
-		background: none;
+		background: none !important;
 	}
 }
