@@ -502,4 +502,32 @@ footer
 		background: url('../images/iPad.png') no-repeat;
 		background-position: right bottom;
 	}
+	
+}
+@media (max-width: 768px){
+	.header-wrapper{
+		padding-top: 15%;
+	}
+	.blog{
+		text-align: center;
+	}
+	.blog-left{
+		padding: 0 15px;
+		text-align: center;
+	}
+	.contact{
+		text-align: center;
+	}
+}
+@media (max-width: 320px){
+	.header-wrapper{
+		padding: 0;
+	}
+	.home .description{
+		margin: 15px 0;
+		font-size: 14px;
+		padding-right: 15px;
+	}
+	
+
 }
