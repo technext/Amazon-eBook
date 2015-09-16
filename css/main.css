@@ -495,7 +495,7 @@ footer
 }
 @media (min-width: 768px){
 	.home .home-bg{
-		background: url('../images/Notebook-1.png') no-repeat;
+		background: url('../images/Notebook-1.png') no-repeat ;
 		background-position: left bottom;
 	}
 	.book .book-bg{
